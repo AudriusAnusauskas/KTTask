@@ -1,0 +1,37 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.link {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 23.44px;
+}
+
+@media screen and (max-width: 640px) {
+  .navigation {
+    position: sticky;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+  }
+  .link {
+    display: block;
+    font-size: 36px;
+    line-height: 42.19px;
+    right: 0;
+  }
+  .navitem {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 95px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.25);
+  }
+  .navitem:last-child {
+    border-bottom: 0;
+  }
+}
