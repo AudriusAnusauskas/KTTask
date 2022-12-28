@@ -24,3 +24,29 @@
   margin: 0 35px;
   top: 33px;
 }
+.textBox {
+  position: relative;
+  top: 33px;
+  width: 430px;
+  height: 63px;
+  margin: auto;
+  margin-top: 27px;
+  text-align: start;
+  color: #fff;
+}
+.header {
+  margin: 0;
+  font-size: 20px;
+  line-height: 23.44px;
+}
+.subheader {
+  margin: 0;
+  font-size: 15px;
+  line-height: 17.58px;
+}
+.text12 {
+  margin: 0;
+  font-size: 12px;
+  line-height: 22px;
+  opacity: 0.75;
+}
