@@ -1,4 +1,5 @@
 import React from "react";
+import Submitter from "../Submitter/Submitter";
 import style from "./Card.module.css";
 
 const Card = () => {
@@ -14,7 +15,9 @@ const Card = () => {
           <p className={style.text12}>Lorem ipsum dolor sit</p>
         </div>
       </div>
-      <div className={style.bottomContainer}></div>
+      <div className={style.bottomContainer}>
+        <Submitter />
+      </div>
     </div>
   );
 };
