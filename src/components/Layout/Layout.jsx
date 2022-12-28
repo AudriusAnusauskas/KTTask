@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "../Header/Header";
+import MainCotainer from "../MainContainer/MainCotainer";
 import styles from "./Layout.module.css";
 
 const Layout = () => {
   return (
-    <div>
+    <div className={styles.main}>
       <Header />
-      <main className={styles.main}>Main</main>
+      <MainCotainer />
     </div>
   );
 };
