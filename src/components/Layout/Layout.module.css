@@ -1,5 +1,16 @@
 .main {
   background-color: #dadada;
   height: calc(100vh - 60px);
-  /* overflow: hidden; */
+}
+
+@media screen and (max-width: 1750px) {
+  .main {
+    height: 185vh;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    height: 260vh;
+  }
 }

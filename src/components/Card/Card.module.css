@@ -1,9 +1,11 @@
 .card {
   width: 500px;
-  margin-top: 105px;
-  z-index: 1;
+  display: flex;
+  flex-direction: column;
 }
 .topContainer {
+  display: flex;
+  flex-direction: column;
   width: 500px;
   height: 550px;
   border-radius: 10px 10px 0 0;
@@ -49,4 +51,36 @@
   font-size: 12px;
   line-height: 22px;
   opacity: 0.75;
+}
+@media screen and (max-width: 1750px) and (min-width: 1200px) {
+  .card {
+    width: 1088px;
+    flex-direction: row;
+  }
+  .topContainer {
+    width: 493px;
+    border-radius: 15px 0px 0px 15px;
+    flex-direction: column-reverse;
+  }
+  .bottomContainer {
+    width: 500px;
+    height: 275px;
+    background-color: #353535;
+    border-radius: 0 0 15px 0;
+  }
+  .screen {
+    position: relative;
+    width: 425px;
+    height: 425px;
+    top: -31px;
+  }
+  .textBox {
+    margin: 0 auto 9px 50px;
+    top: -31px;
+  }
+  .bottomContainer {
+    width: 595px;
+    height: 550px;
+    border-radius: 0px 15px 15px 0px;
+  }
 }

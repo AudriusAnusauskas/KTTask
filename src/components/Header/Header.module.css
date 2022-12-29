@@ -8,9 +8,10 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  margin-bottom: 45px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1200px) {
   .header {
     justify-content: flex-end;
     padding-right: 13px;

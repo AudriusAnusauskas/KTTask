@@ -12,9 +12,9 @@
   line-height: 23.44px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1200px) {
   .navigation {
-    position: sticky;
+    /* position: sticky; */
     flex-direction: column;
     height: calc(100vh - 60px);
   }

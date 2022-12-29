@@ -6,3 +6,18 @@
   justify-content: space-evenly;
   height: calc(100vh - 60px);
 }
+
+@media screen and (max-width: 1750px) {
+  .main {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    gap: 48px;
+  }
+}

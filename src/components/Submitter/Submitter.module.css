@@ -73,7 +73,7 @@
 .submitterContainer::-webkit-scrollbar {
   width: 10px;
   background: #353535;
-  border-radius: 10px 0;
+  border-radius: 15px 0;
 }
 .submitterContainer::-webkit-scrollbar-track {
   background-color: #b0b0b0;
@@ -86,4 +86,23 @@
   height: 161px;
   border-radius: 0 0 5px 5px;
   background: #5f5f5f;
+}
+@media screen and (max-width: 1750px) and (min-width: 1200px) {
+  .submitterContainer {
+    height: 490px;
+  }
+
+  .form {
+    padding-top: 17px;
+  }
+
+  .submitterContainer::-webkit-scrollbar-track {
+    border-radius: 5px;
+    margin-bottom: 18px;
+    margin-top: -30px;
+  }
+  .submitterContainer::-webkit-scrollbar-thumb {
+    height: 258px;
+    border-radius: 5px;
+  }
 }
