@@ -4,7 +4,6 @@
   flex-direction: row;
   gap: 105px;
   justify-content: space-evenly;
-  height: calc(100vh - 60px);
 }
 
 @media screen and (max-width: 1750px) {
