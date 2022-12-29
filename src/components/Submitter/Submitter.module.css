@@ -36,3 +36,54 @@
 .placeholder::placeholder {
   color: #fff;
 }
+.messageContainer {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+.row1 {
+  display: flex;
+  align-items: center;
+  margin: 21px 0 9px 0;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #444444;
+  margin: 0 10px 0 27px;
+}
+.messageHeader {
+  font-size: 18px;
+  line-height: 21.09px;
+  margin: 0;
+}
+.row2 {
+  font-size: 12px;
+  line-height: 14.06px;
+  text-align: left;
+  margin: 0 38px 10px 77px;
+}
+.submitterContainer {
+  overflow-y: scroll;
+  height: 227px;
+}
+
+.submitterContainer::-webkit-scrollbar {
+  width: 10px;
+  background: #353535;
+  border-radius: 10px 0;
+}
+.submitterContainer::-webkit-scrollbar-track {
+  background-color: #b0b0b0;
+  -webkit-border-radius: 10px;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 9px;
+  margin-top: -48px;
+}
+.submitterContainer::-webkit-scrollbar-thumb {
+  height: 161px;
+  border-radius: 0 0 5px 5px;
+  background: #5f5f5f;
+}
