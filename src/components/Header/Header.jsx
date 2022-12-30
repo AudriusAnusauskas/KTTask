@@ -7,7 +7,7 @@ import Navigation from "../Navigation/Navigation";
 
 const Header = () => {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
-  const { matches } = useMediaQuery({ matchQuery: "(max-width: 1200px)" });
+  const { matches } = useMediaQuery({ matchQuery: "(max-width: 640px)" });
 
   useEffect(() => {
     if (matches) {

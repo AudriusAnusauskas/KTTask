@@ -12,16 +12,15 @@
   line-height: 23.44px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 640px) {
   .navigation {
-    /* position: sticky; */
     flex-direction: column;
     height: calc(100vh - 60px);
   }
   .link {
     display: block;
-    font-size: 36px;
-    line-height: 42.19px;
+    font-size: 2rem;
+    line-height: 2.6rem;
     right: 0;
   }
   .navitem {
